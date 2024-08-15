@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Librairie du Coin</title>
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <h1>La Librairie du Coin</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Catégories</a></li>
+                    <li><a href="#">Nouveautés</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="book-categories">
+        <h2>Catégories de Livres</h2>
+        <div class="category">
+            <h3>Fiction</h3>
+            <ul>
+                <li>Romans</li>
+                <li>Science-fiction</li>
+                <li>Policier
+                    <ul>
+                        <li>Space Opera</li>
+                        <li>Dystopie</li>
+                    </ul></li>
+                <li>Horreur</li>
+            </ul>
+        </div>
+        <div class="category">
+            <h3>Non-fiction</h3>
+            <ul>
+                <li>Biographies</li>
+                <li>Histoire</li>
+                <li>Science
+                    <ul>
+                        <li>Physique</li>
+                        <li>Biologie</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <main class="container">
+        <h2>Nouveautés</h2>
+        <div class="book-grid">
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/11522102-M.jpg" alt="Livre 1">
+                <h3>Kafka on the Shore</h3>
+                <p>Auteur: Jane Doe</p>
+                <p class="price">19.99</p>
+            </div>
+            <div class="book-card" data-promotion="promotion">
+                <img src="https://covers.openlibrary.org/b/id/14636052-M.jpg" alt="Livre 2">
+                <h3>Doom Guy</h3>
+                <p>Auteur: John Romero</p>
+                <p class="price">24.99</p>
+            </div>
+            <div class="book-card" data-promotion="super promotion">
+                <img src="https://covers.openlibrary.org/b/id/135412-M.jpg" alt="Promotion - Livre 3">
+                <h3>The Pragmatic Programmer</h3>
+                <p>Auteur: Andy Hunt</p>
+                <p class="price">29.99</p>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/14648621-M.jpg" alt="Livre 4">
+                <h3>Guards ! Guards !</h3>
+                <p>Auteur: Terry Pratchett</p>
+                <p class="price">34.99</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 La Librairie du Coin. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
